@@ -43,7 +43,10 @@ public class Solution1
 
             if (!group.Repeating) groupFinished = true;
 
-            if (groupIdx < groups.Length - 1 && cursor < chars.Length && TryMatch(groups[(groupIdx + 1)..], chars[cursor..]))
+            if (groupIdx < groups.Length - 1
+                    && cursor < chars.Length
+                    && group.Repeating
+                    && TryMatch(groups[(groupIdx + 1)..], chars[cursor..]))
                 return true;
 
             cursor++;
@@ -52,7 +55,7 @@ public class Solution1
                 for (var i = groupIdx + 1; i < groups.Length; i++)
                     if (!groups[i].Repeating)
                         return false;
-                groupIdx++;
+                groupIdx = groups.Length;
             }
         }
 

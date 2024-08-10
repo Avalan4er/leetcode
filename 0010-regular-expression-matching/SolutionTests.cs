@@ -101,4 +101,24 @@ public class SolutionTests
 
         Assert.False(result);
     }
+
+    [Fact]
+    public void Case11()
+    {
+        var sln = new Solution1();
+
+        var result = sln.IsMatch("aaa", "aaaa");
+
+        Assert.False(result);
+    }
+
+    [Fact]
+    public void Case12()
+    {
+        var sln = new Solution1();
+
+        var result = sln.IsMatch("a", "ab*");
+
+        Assert.True(result);
+    }
 }
