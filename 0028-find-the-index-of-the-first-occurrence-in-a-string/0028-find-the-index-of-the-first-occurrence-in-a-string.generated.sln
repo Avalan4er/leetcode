@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "0028-find-the-index-of-the-first-occurrence-in-a-string", "0028-find-the-index-of-the-first-occurrence-in-a-string.csproj", "{DE9821D0-3FB9-4DA8-A31A-34E995BD6CFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE9821D0-3FB9-4DA8-A31A-34E995BD6CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE9821D0-3FB9-4DA8-A31A-34E995BD6CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE9821D0-3FB9-4DA8-A31A-34E995BD6CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE9821D0-3FB9-4DA8-A31A-34E995BD6CFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {705E5349-766F-42DB-8C20-261DAAFC0CCD}
+	EndGlobalSection
+EndGlobal
